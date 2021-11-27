@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>AS-IDW</title>
+</head>
+<body>
+    <script src='js/script.js'></script>
+
+    <div id = 'container'>
+        <div class = 'centro'>
+            <h1>Aluguel de árvores de natal</h1>
+            <p>Quer pagar por semana ou por mês?</p>
+            <div class = 'button'>
+                <button class = 'button1' id = 'semana' onclick = 'att2()'>Por semana</button>                
+                <button class = 'button2' id = 'mes' onclick = 'att()'>Por mês</button>
+            </div>
+        </div>
+
+        <div class = 'centro1'>
+            <div class = 'local'>
+                <main class = 'itens'>
+                    <div class = 'arvore'>
+                        <img src='img/1.png' class='img'>
+                    </div>
+                        <div class='text'>
+                            <p1>plano</p1>
+                            <h2>BÁSICO</h2>
+                            <h3 id = 'attPreço1'>R$ 9,99</h3>
+                            <p2 id = 'attFrase1'>por semana</p2>
+                        </div>
+                </mainv>   
+            </div>
+            <div class = 'local'>
+                <main class = 'itens'>
+                    <div class = 'arvore'>
+                        <img src='img/1.png' class='img'>
+                    </div>
+                        <div class='text'>
+                            <p1>plano</p1>
+                            <h2>SUPER</h2>
+                            <h3 id = 'attPreço2'> R$ 14,99</h3>
+                            <p2 id = 'attFrase2'>por semana</p2>
+                        </div>
+                </main>   
+            </div>
+            <div class = 'local'>
+                <main class = 'itens'>
+                    <div class = 'arvore'>
+                        <img src='img/1.png' class='img'>
+                    </div>
+                        <div class='text'>
+                            <p1>plano</p1>
+                            <h2>MEGA</h2>
+                            <h3 id = 'attPreço3'>R$ 29,99</h3>
+                            <p2 id = 'attFrase3'>por semana</p2>
+                        </div>
+                </main>   
+            </div>
+        </div>
+        <div class = 'final'>
+            <fieldset class = calculoSemanal>
+                <h4 id = 'titulo'>Calcular Aluguel Semanal</h4>
+                <label id = 'periodo'> Período(semanais):</label>
+                <input id ='valor1' type = 'valor'/>
+                <label id = 'periodo'>Plano(valor):</label>
+                <input id = 'valor2' type = 'valor'/>
+                <button class = 'buttonCalculo' id = 'calcular' onclick='calcularValores()'>Calcular</button>
+                <label id = 'valorTotal'>Valor total:</label>
+                <input id = 'valor3' type='valor'>
+            </fieldset>
+            <div class = 'info'>
+                <p5>Centro Universitário Luterano de Palmas - CEULP/ULBRA;</p5>
+                <p5>Introdução de Desenvolvimento WEB - IDW por Jackson Gomes;</p5>
+                <p5>AS (Avaliação Semestral);</p5>
+                <br>
+                <p5>Newton Lopes Neto;</p5>
+                <br>
+                <p5>2021.2.</p5>
+
+
+            </div>
+        </div>
+    </div>
+</body>
